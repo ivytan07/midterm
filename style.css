@@ -1,0 +1,122 @@
+/* Global setting for all html elements */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/97/46/3557f0c7df6d0c8.jpg); background-size:100% 100%;
+       
+  }
+
+/* Style the words (Welcome to Myshop) */
+
+
+.header h1{
+    padding: 30px;
+    text-align: center;
+    color: black;
+    font-family: "Bookman", "URW Bookman L", serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+    
+/* style the words (Product list)*/
+.content h2{
+    background-color: rgb(243, 237, 179);
+    text-align: center;
+    color: rgb(7, 7, 7);
+    font-family: "Bookman", "URW Bookman L", serif;
+    font-weight: bold;
+    font-size: 30px;
+    }
+
+
+/*Style the Bottom navigation bar */    
+.bottomnavbar {
+    overflow: hidden;
+    background-color: rgb(195, 66, 255);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottomnavbar a {
+    float: right;
+    display: block;
+    color: rgb(12, 11, 11);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Column container */
+
+.main {
+    -ms-flex: 100%;
+    /* IE10 */
+    flex: 100%;
+    padding: 30px;
+    text-align: center;
+    }
+/* Style the label */
+label {
+    font-weight: bold;
+    padding:  12px;
+    display: inline-block;
+    text-align: center;
+    }
+
+/* Style the text field */
+input[type=text] {
+    width: 30%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: solid;
+    background: rgb(197, 194, 194);
+    }
+
+/* Style Add Button*/
+.addbtn{
+    background-color: #afbbff;
+    border: none;
+    color: rgb(10, 10, 10);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    }
+
+/* Select Image*/
+.imgselection {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid black;
+        
+}
+
+/* Style Table*/
+.table-bordered {
+
+    font-family: arial, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+      
+th, td {
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;    
+      }
+
